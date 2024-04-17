@@ -1,12 +1,13 @@
-/* Estilos de página de viajes 
-*{
+/* Estilos de pagina de viajes
+* {
     outline: solid black;
 }
 */
-body { /* Selección de body */
-font-family:Arial, sans-serif ; /* Cambia tipografia */
-margin: 0; /* Elimina todo el margen por defecto*/
-padding: 0; /* Elimina todo el relleno de los elementos */
+body { /* Seleccion de body */
+    background-color: #fff; /* Establece el color de fondo */
+    font-family: Arial, sans-serif; /* Cambia tipografia */
+    margin: 0; /* Elimina todo el margen por defecto */
+    padding: 0; /* Elimina todo el relleno de los elementos */
 }
 /* Acá viene el estilo de una clase container */
 .container {
@@ -15,79 +16,82 @@ padding: 0; /* Elimina todo el relleno de los elementos */
 }
 /* Estilo de encabezado */
 header {
-    background-color: #8603dd; /* Establece el color de fondo */
-    color: #000000; /* Establece el color de texto */
-    padding: 20px 0; /* Añade relleno superior e inferior */
+    background-color: #333; /* Establece el color de fondo */
+    color: #fff; /* Establece el color del texto */
+    padding: 10px 0; /* Añade relleno superior e inferior */
 }
 
-header h1{
-    margin: 0; /* Elimina el margen por defecto del título */
+header h1 {
+    margin: 0; /* elimina el margen por defecto del titulo */
+
 }
-/* Estilo de elemento de lista */
-nav ul li{
-    display:inline; /* Alinea los elemento */
-    margin-right: 20px; /* margen hacia la derecha */
+/* Estilo de elemnto de lista */
+nav ul li {
+    display: inline; /* Alinea los elementos */
+    margin-right: 20px; /* Margen hacia la derecha */
 }
-/* Estilo a elementos de vinculo ancla de navegacion */
+/* Estilo a elementos de vinculo anchor (ancla) */
 nav ul li a{
-    color:#ff00d4; /* Color a elemento Anchor */
-    text-decoration: none; /* Quita subrayado de enlaces */
+    color: #fff; /* Color a elemento Anchor */
+    text-decoration: none; /* Quita el subrayado de enlaces */
 }
-
 section {
-    padding: 40px 0; /* Añade relleno superior e inferio */
+    padding: 40px 0; /* Añade relleno superior e inferior */
 }
-
-#banner{
+#banner {
     background-image: url('https://www.flowo.com/cdn-cgi/image/format=webp,compression=fast/https://cms.w2m.com/dam/Sites/Flowo/paquetes/Fotos/Bayahibe/BayahibeEssence.jpg'); /* Establece la imagen de fondo del banner */
-    background-size: cover; /* Ajusta la imagen al área del banner */
-    color: #fff; /*Establece color del texto */
+    background-size: cover; /* Ajusta la imagen al area del banner */
+    color: #fff; /* Establece el color del texto */
     text-align: center; /* Centra el texto del banner */
-    padding: 120px 0; /* Define el relleno superior e inferior */
+    padding: 100px 0; /* Añade relleno superior e inferior */
 }
-#banner h2{
-font-size: 36px; /* Establece tamaño de texto */
+#banner h2 {
+    font-size: 36px; /* Establece tamaño de texto */
 }
-#banner p{
-    font-size: 18px; /* Establece tamaño de P */
-    margin-bottom: 20px; /* Define margen inferior */
+#banner p {
+    font-size: 18px; /* Establece tamaño de p */
+    margin-bottom: 20px; /* Establece margen inferior */
 }
-
 .btn{
-    background-color: #007bff; /* Color fondo boton */
-    color: #fff; /* Color del texto del boton */
-    padding: 10px 20px; /* Relleno del boton */
-    text-decoration: none; /* Quita decoración del enlace */
+    text-decoration: none; /* Quita el subrayado de enlaces */
+    color: #fff; /* Establece el color del texto */
+    background-color: #007bff; /* Establece el color de fondo del boton */
+    padding: 10px 20px; /* Añade relleno superior e inferior del boton */
+    border-radius: 10%;
 }
 /* Estilo cuando pasa puntero sobre el boton */
 .btn:hover {
-    background-color: #0056b3; /* Establece el color de fondo en hover boton */
+    background-color: #0056b3;
 }
 
-.destinos-container{
-    display: flex; /* Utiliza flexbox para elinear elementos */
-    justify-content: space-between; /* Distribuye uniformemente los elementos */
-    flex-wrap: wrap; /* Si los elementos no caben en la misma línea, agrega una nueva línea con estos elementos extras */
+.destinos-container {
+    display: flex; /* Ordena horizontalmente los elementos */
+    justify-content: space-between; /* Añade espacio entre los elementos */
+    flex-wrap: wrap; /* Si los elementos no caben en la misma linea agrega una nueva linea con los elementos */
 }
-.destino{
+
+.destinos {
     width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
-    margin-bottom: 20px; /* define el margen inferior */
+    margin-bottom: 20px;  /* Establece margen inferior */
     text-align: center; /* Centra el texto */
 }
 
-.destino img{
-    width: 100%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
-    border-radius: 8px; /* Redondea las esquinas*/
+.destinos img {
+    width: 100%; /* Establece el ancho de la imagen ajustandola al elemnto que la contiene */
+    border-radius: 8px; /* Agrega esquinas redondeadas */
 }
-.destino h3{
-margin-top: 10px; /* agrega distancia entre imagen y h3 */
+
+.destinos h3 {
+    margin-top: 10px; /* agrega distancia superior entre imagen */
 }
-.destino p{
-margin-top: 10px; /* Agrega distancia superior entre h3 y parrafo */
+
+.destinos p {
+    margin-top: 10px; /* agrega distancia superior entre h3 y parrafo (p) */
 }
-footer{
+
+footer {
     background-color: #333; /* Establece color de fondo de footer */
     color: #fff; /* Establece color de texto de footer */
-    text-align: center; /* centra el texto */
+    text-align: center; /* Centra el texto */
     padding: 20px 0; /* Añade relleno superior e inferior */
 }
