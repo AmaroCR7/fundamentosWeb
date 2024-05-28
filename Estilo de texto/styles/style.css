@@ -1,31 +1,23 @@
-.container {
-    background-color: black;
-    width: 60%;
-    padding: 1px 0;
+* {
+    outline: solid black;
 }
 
-span{
-    color: cyan;
-}
-
-h1{
+span {
     color: white;
+}
+
+h1 {
+    background-color: black;
+    color: cyan;
 }
 
 h2 {
     background-color: blueviolet;
-    width: 60%;
     text-align: center;
-    color: white;
     font-style: italic;
-    padding: 15px 0;
-    margin-top: 6px;
 }
 
-nav{
+h3 {
     background-color: #9fc5f8;
-    width: 60%;
-    margin-bottom: 5px;
     text-align: right;
-    padding: 1px 0;
 }
